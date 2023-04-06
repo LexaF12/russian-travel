@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1184px;
+    justify-content: space-between;
+    margin: 92px auto 24px;
+}
+
+/*На экранах более 1280px ломался подвал сайта с технологией калькулятора, поступил данным способом*/
+@media screen and (max-width: 1280px) {
+    .footer {
+        max-width: calc(100vw - 96px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: calc(100vw - 96px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: calc(100vw - 48px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        max-width: calc(100vw - 48px);
+        flex-direction: column;
+    }
+}
