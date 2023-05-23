@@ -18,6 +18,12 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .places {
+    max-width: 93.75%;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .places {
     max-width: 100%;
@@ -27,5 +33,6 @@
 @media screen and (max-width: 500px) {
   .places {
     margin-bottom: 66px;
+    grid-row-gap: 50px;
   }
 }

@@ -10,14 +10,19 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 900px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
 @media screen and (max-width: 760px) {
     .place__paragraph {
         grid-column: 1;
         margin-left: 24px;
         margin-top: 32px;
         margin-right: 24px;
-        font-size: 16px;
-        line-height: 26.08px;
     }
 }
 
