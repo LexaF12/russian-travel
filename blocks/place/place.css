@@ -11,16 +11,16 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place {
-        grid-template-columns: 340px 1fr;
-        grid-column-gap: 28px;
-    }
-}
-
 @media screen and (max-width: 760px) {
     .place {
         grid-template-columns: 1fr;
+        grid-column-gap: 28px;
         gap: unset;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .place {
+        grid-column-gap: 50px;
     }
 }

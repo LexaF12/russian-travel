@@ -9,3 +9,10 @@
         grid-row: auto;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .place__image {
+        margin-bottom: 32px;
+    }
+
+}
