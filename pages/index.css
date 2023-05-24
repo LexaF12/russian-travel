@@ -42,3 +42,21 @@
 @import url(../blocks/place/__website/place__website.css);
 /*places*/
 @import url(../blocks/places/places.css);
+
+.places {
+    outline: 1px solid yellow;
+}
+
+.place {
+    outline: 1px solid yellow;
+}
+
+.place__paragraph {
+    outline: 1px solid yellow;
+}
+.place__website {
+    outline: 1px solid yellow;
+}
+.places {
+    outline: 1px solid red;
+}
